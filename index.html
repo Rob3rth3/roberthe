@@ -6,6 +6,13 @@
 <title>Roberthe</title>
 
 <style>
+@font-face {
+    font-family: 'Roberte';
+    src: url('./Roberte-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
     margin: 0;
     width: 100%;
@@ -19,17 +26,34 @@ body {
     align-items: center;
 }
 
+.contenu {
+    text-align: center;
+}
+
 h1 {
     color: white;
-    font-family: Garamond, serif;
+    font-family: 'Roberte', sans-serif;
     font-size: 12vw;
     font-weight: normal;
     margin: 0;
+}
+
+.pipe {
+    display: block;
+    color: white;
+    font-family: 'Roberte', sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 1rem;
 }
 </style>
 </head>
 
 <body>
-    <h1>Roberthe</h1>
+    <div class="contenu">
+        <h1>Roberthe</h1>
+        <a class="pipe" href="pipe.html">Pipe</a>
+    </div>
 </body>
 </html>
